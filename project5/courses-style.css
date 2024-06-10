@@ -1,0 +1,59 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url("https://tse3.mm.bing.net/th?id=OIP.wZuofuauyZJiaa98iMryTgHaEK&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:blanchedalmond;
+}
+button{
+background-color: aqua;
+}
+.container img{
+max-width:35%;
+height: 25%;
+border-radius: 50px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+@media screen and (min-width:320px )  {
+
+body {
+background-color: aqua;
+}
+}
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+color: rgb(177, 48, 48);
+
+}
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+body {
+background-color: rgb(249, 241, 245);
+
+}
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+body {
+background-color: rgb(101, 51, 208);
+}
+}
+#searchImage{
+    width:200px;
+    cursor:pointer;
+    border:2px solid;
+    border-radius:10px;
+    transition: transform 0.3s;
+}
+#searchImage:hover{
+    transform:scale(1.4);
+}
+h1{
+    color:burlywood;
+}

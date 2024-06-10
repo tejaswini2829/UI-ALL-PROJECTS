@@ -1,0 +1,73 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/4142729.jpg");
+    color:blanchedalmond;
+    text-size-adjust: 500px;
+    lighting-color: black;
+    background-color: black;
+    
+
+}
+button{
+  background-color: aqua;
+}
+
+/*  Smart phone      */
+
+@media screen and (min-width:320px )  {
+
+       body {
+            background-color: aqua;
+       }
+}
+/*  Tablet,ipad      */    
+
+  @media Screen and (min-width:768px) and (max-width:1024px){
+      body {
+            color: rgb(177, 48, 48);
+
+      }
+  }
+ 
+
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+      body {
+            background-color: rgb(249, 241, 245);
+        
+      }
+  }
+
+  /* Large Screens---------  */
+  @media Screen and (min-width:1824px) {
+      body {
+            background-color: rgb(101, 51, 208);
+          
+      }
+  }h1{
+    text-shadow: 0cqmax;
+  
+  }
+  .glass-effect{
+    background:rgba(93, 81, 81, 0.2);
+    border-radius:20px;
+    padding:10px;
+    width:280px;
+    text-align:center;
+    backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
+border:1px solid rgba(71, 67, 67, 0.036);
+justify-content: center;
+box-shadow:0 4px 8px rgba(0,0,0,0.2);
+position: bottom right;
+}
+.glass-effect h1{
+    margin:0;
+    padding:0;
+    font-size:24px;
+    color:#fff;
+}
+.glass-effect p{
+    color:#fff;
+}

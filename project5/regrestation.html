@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>UI Pages</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\TEJASWINI\OneDrive\Desktop\project5\reg-style.css">
+    <script>
+      function validateemail()  
+{  
+var myemail=document.myform.email.value;  
+var atposition=myemail.indexOf("@");  
+var dotposition=myemail.lastIndexOf(".");  
+if (atposition<1 || dotposition<atposition+2 || dotposition+2>=myemail.length){  
+  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+  return false;  
+  }  
+}  
+</script>  
+      </script>  
+      
+  </head>
+    <body>  
+      <button>
+        <a href="C:\Users\TEJASWINI\OneDrive\Desktop\project5\website.html">Home</a>  
+    </button>
+    <br>
+    <br><br>
+    <center>
+        <div class="background">
+                  <div class="glass-effect">
+            <div class="container">
+              <form name="myform"  method="post" action="C:\Users\TEJASWINI\OneDrive\Desktop\project5\login.html" onsubmit="return validateemail();">
+    <h1>Registration form</h1>
+   <div> First name: <input type "text" id="data_2" name="data_2" placeholder="firstname"> </div><br>
+      <div> Last name: <input type "text" id="data_3" name="data_3" placeholder="lastname"></div><br>
+    Email:  <input type ="text" name="email" placeholder="email">
+    <h2> gender:</h2>
+    <input type="radio" name="gender" value="M">male<br>
+    <input type="radio" name="gender" value="F">female<br>
+     Mobile number: <input type="number num-"mnum" placeholder="num....."> <br><br>
+    Date of Birth<input type="date" name="bate of birth"><br>
+    <h2>Address:</h2>
+    <textarea name="mytest" cols="25" row="15">
+    </textarea>
+    <br><br>
+    <input type="submit" value="Submit" >
+    </div>
+    </form>
+    </div>
+    </div>
+  </center>
+    </body>
+    </html>
